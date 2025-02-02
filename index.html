@@ -5,19 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profile Card</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <div class="card">
     <img src="./my-profile-picture.jpg" alt="Profile Picture" data-testid="profilePicture">
     <h2 data-testid="fullName">Eric Nimba</h2>
     <p data-testid="jobTitle">Frontend Developer</p>
-    <p data-testid="shortBio">I am a passionate frontend developer, eager to build user-friendly and interactive applications.</p>
+    <p data-testid="shortBio">I am a passionate Fullstack Software Engineer specialised in frontend, eager to build user-friendly and interactive applications.</p>
     <p data-testid="currentLocation">Kisumu, Kenya</p>
-    <a href="mailto:nimbaoyugi@gmail.com" data-testid="emailAddress">nimbaoyugi@gmail.com</a>
+    <a href="mailto:nimbaoyugi@gmail.com" data-testid="emailAddress" class="contact-link">Contact Me</a>
+
     <div class="social-links" data-testid="socialLinks">
-      <a href="https://github.com/nimba005" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/oyugi-nimba-4141592b1/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/nimba005" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/oyugi-nimba-4141592b1/" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
     </div>
+    
     <p data-testid="currentTimeUTC" id="utcTime">Loading UTC Time...</p>
   </div>
   <script>
