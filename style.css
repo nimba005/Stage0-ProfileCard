@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+  }
+  img[data-testid="profilePicture"] {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  h2[data-testid="fullName"] {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  p[data-testid="jobTitle"] {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  p[data-testid="shortBio"] {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  p[data-testid="currentLocation"] {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  a[data-testid="emailAddress"] {
+    color: #3498db;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .social-links {
+    margin-bottom: 15px;
+  }
+  .social-links a {
+    color: #555;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  p[data-testid="currentTimeUTC"] {
+    font-size: 14px;
+    color: #333;
+    margin-top: 15px;
+  }
