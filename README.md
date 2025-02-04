@@ -16,5 +16,5 @@ This project is a responsive Profile Card created as part of the HNG Internship 
 * **HTML**: Structure of the profile card.
 * **CSS**: Styling for the card layout.
 * **JavaScript**: Dynamic updates for the current UTC time.
-**Clone this repo**
+* **Clone this repo**
 `git clone https://github.com/nimba00/Profile-Card-HNG-Task.git`
